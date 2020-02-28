@@ -6,13 +6,11 @@ import java.util.Date;
  * Clase principal o superclase
  */
 public class Persona {
-
-    //Atributos comunes para todas las clases
-    private String nombre;
-    private String identificacion;
-    private String estado_civil;
-    private String fecha_nacimiento;
-
+    // Atributos comunes para todas las clases
+    protected String nombre;
+    protected String identificacion;
+    protected String estado_civil;
+    protected String fecha_nacimiento;
 
     public String getNombre() {
         return nombre;
