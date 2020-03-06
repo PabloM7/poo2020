@@ -1,6 +1,6 @@
-package polimorfismoinversionistas;
+package polimorfismodeudores;
 
-public class Pagare extends Inversionista{
+public class PrestamoAuto1 extends ClienteDeudor1{
 
     /**
      * Metodo abstracto, que sera implementado
@@ -9,7 +9,7 @@ public class Pagare extends Inversionista{
 
     @Override
     public void calcular_int_final() {
-        int_anual = 0.18;
-        interes_pg = (capital_inv * int_anual * plazo);
+       int_anual = 0.12;
+       interes_pg = int_anual * prestamo * plazo;
     }
 }

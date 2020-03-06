@@ -10,6 +10,6 @@ public class CuentaMaestra extends Inversionista{
     @Override
     public void calcular_int_final() {
         int_anual = 0.12;
-        setInteres_pg((capital_inv * int_anual * plazo));
+        interes_pg = ((capital_inv * int_anual * plazo));
     }
 }
